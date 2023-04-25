@@ -1,0 +1,93 @@
+body {
+    margin: 0 0 0 30px;
+    background-color: darkgray;
+}
+
+#name {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkslategray;
+
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+img:hover {
+    border: 2px solid black;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#resumo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: midnightblue;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: darkslategray;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    align-items: center;
+    display: inline-block;
+    
+}
+
+li {
+    align-items: center;
+    display: block;
+    color: #222424;
+}
+
+li:hover {
+    font-size: 23px;
+    color: #141717;
+}
+
+.myFoto {
+    background-color: #54a63c;
+    padding: 10px;
+    border-radius: 50%;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 18px;
+    color: #011f1f;
+}
+
+.myFoto:hover {
+    font-size: 20px;
+    color: #001818;
+    background-color: #54a63f;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.blogAmigo {
+    text-decoration: none;
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+.descriBlog {
+    text-align: center;
+    color: darkorchid;
+}
