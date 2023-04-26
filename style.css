@@ -38,6 +38,11 @@
     height: 25vh;
     margin-top: 55vh;
 }
+.formacao ul {
+    color: aliceblue;
+    text-align: center;
+
+}
 
 .linguagens {
     /* background-color: brown; */
@@ -45,6 +50,9 @@
     width: 20vw;
     height: 20vh;
     margin-top: 80vh;
+}
+.linguagens ul {
+    color: azure;
 }
 
 .name {
@@ -118,4 +126,93 @@ h3 {
     margin-top: 5px;
     margin-left: 10vW;
 
+}
+
+
+.barraHTML {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 90%, #dbd0d0 90%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.barraCSS {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 90%, #dbd0d0 90%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.barraJS {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 75%, #dbd0d0 75%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.barraReact {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 0%, #dbd0d0 0%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.barraDB {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 25%, #dbd0d0 25%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.barraNode {
+    width: 50%;
+    float: right;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background-color: #bcb9b9;
+    background: linear-gradient(to right, #4cf24c 0%, #4cf24c 35%, #dbd0d0 35%);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.linguagens ul p {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -20px;
 }
