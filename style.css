@@ -99,3 +99,16 @@ h2 {
     font-size: 15px;
     text-align: center;
 }
+
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icon {
+    width: 15px;
+    margin-top: 5px;
+    margin-left: 10vW;
+
+}
