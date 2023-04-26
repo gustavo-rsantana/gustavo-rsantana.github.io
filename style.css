@@ -1,93 +1,101 @@
-body {
-    margin: 0 0 0 30px;
-    background-color: darkgray;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-#name {
-    font-family: sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: darkslategray;
-
+.barraLateral {
+    background-color: #1E1352;
+    width: 20vw;
+    height: 100vh;
+    position: absolute
+}
+.foto {
+    /* background-color: chocolate; */
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
 }
 
-img {
-    border: 2px solid white;
-    border-radius: 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.inforPessoal {
+    /* background-color: green; */
+    position: absolute;
+    width: 20vw;
+    height: 25vh;
+    margin-top: 30vh;
+}
+
+.formacao {
+    /* background-color: yellow; */
+    position: absolute;
+    width: 20vw;
+    height: 25vh;
+    margin-top: 55vh;
+}
+
+.linguagens {
+    /* background-color: brown; */
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 80vh;
+}
+
+.name {
+    background-color: #525059;
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+    margin-left: 20vw;
     
+}
+.resProf {
+    /* background-color: #eee; */
+    position: absolute;
+    width: 80vw;
+    height: 30vh;
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+.histProf {
+    /* background-color: darkgoldenrod; */
+    position: absolute;
+    width: 80vw;
+    height: 30vh;
+    margin-left: 20vw;
+    margin-top: 50vh;
     
 }
 
-img:hover {
-    border: 2px solid black;
+.competencias {
+    /* background-color: black; */
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+    margin-left: 20vw;
+    margin-top: 80vh;
 }
 
-p {
-    font-size: 25px;
-    text-align: justify;
+h1 {
+    font-size: 20px;
+    margin-left: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-top: 2vh;
 }
 
-#resumo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.name h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: bisque;
+    margin-top: 6vh;
     text-align: center;
-    color: midnightblue;
+    margin-left: 0;
 }
 
 h2 {
-    font-family: sans-serif;
-    font-size: 25px;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-size: 15px;
     text-align: center;
-    color: darkslategray;
-}
-
-ul {
-    font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
-    align-items: center;
-    display: inline-block;
-    
-}
-
-li {
-    align-items: center;
-    display: block;
-    color: #222424;
-}
-
-li:hover {
-    font-size: 23px;
-    color: #141717;
-}
-
-.myFoto {
-    background-color: #54a63c;
-    padding: 10px;
-    border-radius: 50%;
-    font-family: monospace;
-    text-decoration: none;
-    font-size: 18px;
-    color: #011f1f;
-}
-
-.myFoto:hover {
-    font-size: 20px;
-    color: #001818;
-    background-color: #54a63f;
-    padding: 12px;
-    border-radius: 50%;
-}
-
-.blogAmigo {
-    text-decoration: none;
-    display: block;
-    margin-top: 100px;
-    text-align: center;
-}
-.descriBlog {
-    text-align: center;
-    color: darkorchid;
 }
